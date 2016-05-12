@@ -1,2 +1,3 @@
 # BootStrap Example
-Basic boot strap example project
+Basic Bootstrap example project
+
