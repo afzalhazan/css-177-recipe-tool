@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Yummly</title>
+<!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href ="https://api.yummly.com/v1
+
+</head>
+<body>
+  <!--Import jQuery before materialize.js-->
+          <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+
+          <!--Other element insitialisations-->
+          <script type="text/javascript" language="javascript">
+
+    $(document).ready(function(){
+      // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+      $('.modal').modal();
+    });
+
+     </script>
+
+  <!-- Modal Trigger -->
+
+ <!-- Modal Structure -->
+ <div id="modal1" class="modal modal-fixed-footer">
+   <div class="modal-content">
+     <div class="row">
+       <div class="col s12">
+         <ul class="tabs">
+           <li class="tab col s3"><a href="#test1" class="active">Login</a></li>
+           <li class="tab col s3"><a  href="#test2">Sign Up</a></li>
+
+           <li class="tab col s3"><a href="#test4">Forgot</a></li>
+         </ul>
+       </div>
+       <div id="test1" class="col s12">
+         <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+          <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+          <label for="first_name">User Name</label>
+        </div>
+        <div class="input-field col s12">
+          <input placeholder="Placeholder" id="Email" type="text" class="validate">
+          <label for="Email">Email</label>
+        </div>
+
+      </div>
+      <input class="btn" type="submit" value="Login">
+      </form>
+
+
+
+
+</div>
+
+      </div>
+       <div id="test2" class="col s12">Test 2</div>
+       <div id="test3" class="col s12">Test 3</div>
+       <div id="test4" class="col s12">Test 4</div>
+     </div>
+   </div>
+   <div class="modal-footer">
+     <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Agree</a>
+   </div>
+ </div>
+
+  <nav class="blue">
+    <div class="nav-wrapper">
+      <a href="#" class = "brand-Logo">LOGO</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li>
+        <i class="material-icons">search</i></li>
+      <li>
+         <form class="" method="get">
+          <input type="text" name="" value="">
+<label ></label>
+        </form></li>
+
+        <li><a href="HOME.html">HOME</a></li>
+        <li><a href="MENU.html">MENU</a></li>
+        <li><a href="#modal1" class="modal-trigger btn red hoverable">LOGIN/SIGNUP</a></li>
+      </ul>
+    </div>
+  </nav>
+    <!-- Compiled and minified JavaScript-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+<script type="text/javascript" src="init.js" >
+< script type="text/javascript" src="materialize.js" >
+<script type="text/javascript" src="materialize.min.js" >
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+
+</script>
+</body>
+</html>
